@@ -7,13 +7,16 @@ SIPP压力测试Asterisk通信能力，步骤如下：
 2. SIPP压力测试相关脚本准备：
 	1）主叫侧注册文件(csv)
 		例如：
+		
 
 	2）被叫侧注册文件(csv)
 		例如：
 
 	3）测试场景文件：
 		a）uac.xml
+		sipp -sd uac >> uac.xml
 		b）uas.xml
+		sipp -sd uas >> uas.xml
 		c) ...
 
 

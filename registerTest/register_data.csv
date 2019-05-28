@@ -1,0 +1,4 @@
+SEQUENTIAL
+# user, authentication
+#test;pbx.saghul.lan;[authentication username=test password=test]
+6001;[authentication username=6001 password=6001]
